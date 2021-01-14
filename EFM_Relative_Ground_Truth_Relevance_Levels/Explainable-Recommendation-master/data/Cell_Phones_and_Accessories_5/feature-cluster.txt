@@ -1,0 +1,13 @@
+durability: protection, protector
+power: battery, power, output, power bank, battery life, battery pack, powerbank
+charging: charge, charger, car charger, wall charger, charging
+connection: connection, outlet, plug, port, connector, cable, cord
+handle: length, button, grip, fit, weight, size, clip, feel, material, power button, hand, room, top, band, strap, base
+sound: bass, sound, volume, speaker
+appearance: plastic, back, side, color, surface, box, exterior, glass, logo, matte finish
+light: flashlight, LED, light
+camera: camera
+keyboard: keyboard
+accessary: pouch, stand, headset, stylus, cover, adapter, pack, holder, case, kickstand
+screen: screen, screen protector, display
+price: price
