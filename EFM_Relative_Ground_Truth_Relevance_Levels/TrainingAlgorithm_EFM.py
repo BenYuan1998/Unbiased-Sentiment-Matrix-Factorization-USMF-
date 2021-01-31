@@ -11,7 +11,7 @@ def checking_convergence(iterations,costs):
     plt.xlabel("ith iteration")
     plt.ylabel("value of the loss function")
     plt.show()
-def trainingalgorithm_EFM(A, X, Y, r, r_, lambda_x, lambda_y, lambda_u, lambda_h, lambda_v, T=500, alpha=1e-3):
+def trainingalgorithm_EFM(A, X, Y, r, r_, lambda_x, lambda_y, lambda_u, lambda_h, lambda_v, T=100, alpha=1e-2):
     m = X.shape[0]
     p = X.shape[1]
     n = Y.shape[0]

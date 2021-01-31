@@ -82,10 +82,7 @@ class get_matrices(object):
                         feature_sentiment+=feature_sentiment_pair[1]
                 feature_cumulative_sentiment[featureid]=feature_sentiment
             for idx in feature_cumulative_sentiment.keys():
-                if feature_cumulative_sentiment[idx]==0:
-                    self.Y[item,idx]=0
-                else:
-                    self.Y[item,idx]=1+(self.N-1)/(1+np.exp(-feature_cumulative_sentiment[idx])) 
+                self.Y[item,idx]=1+(self.N-1)/(1+np.exp(-feature_cumulative_sentiment[idx])) 
 
 
 

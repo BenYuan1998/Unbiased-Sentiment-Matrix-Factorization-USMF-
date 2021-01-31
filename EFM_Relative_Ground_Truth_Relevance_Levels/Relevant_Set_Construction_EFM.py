@@ -23,7 +23,7 @@ def relevant_set_construction_EFM(df_test,user_index,threshold):
     user_items_interactions=df_test[df_test["user_index"]==user_index]
     relevant_indices=list()
     for index, interaction in user_items_interactions.iterrows():
-        relevance_level=interaction["ranking_score"]
+        relevance_level=interaction["relevance"]
         if relevance_level>=threshold:
             relevant_indices.append(index)
     if len(relevant_indices)==0:
